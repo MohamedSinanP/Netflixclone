@@ -15,6 +15,7 @@ body{
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/header-image.png);
   background-size:cover;
   position:relative;
+  
 }
 nav{
   display:flex;
@@ -26,6 +27,11 @@ nav{
 .logo{
   width: 150px;
   cursor:pointer;
+  padding-left:133px;
+  padding-top:22px;
+}
+.header-right{
+  padding-right:133px;
 }
 nav button{
   border:0;
